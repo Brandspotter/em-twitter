@@ -12,7 +12,7 @@ require 'em-twitter/decoders/gzip_decoder'
 
 require 'em-twitter/reconnectors/application_failure'
 require 'em-twitter/reconnectors/network_failure'
-require 'em-connectify'
+require 'em-socksify'
 
 module EventMachine
   module Twitter
